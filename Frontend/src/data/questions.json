@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "text": "React ka useState hook kis cheez ke liye use hota hai?",
+    "options": ["State manage karne ke liye", "Styling ke liye", "Routing ke liye", "Server requests ke liye"],
+    "answer": 0
+  },
+  {
+    "id": 2,
+    "text": "HTML me sabse bada heading tag kaun sa hai?",
+    "options": ["<p>", "<h1>", "<div>", "<span>"],
+    "answer": 1
+  }
+]
