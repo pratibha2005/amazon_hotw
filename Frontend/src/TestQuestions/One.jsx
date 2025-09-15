@@ -517,11 +517,18 @@ export default function One() {
         const wrong = total - correct;
 
         //  send to backend
-        const res = await fetch("http://localhost:5000/api/submit", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(finalData),
-        });
+        // const res = await fetch("http://localhost:5000/api/submit", {
+        //   method: "POST",
+        //   headers: { "Content-Type": "application/json" },
+        //   body: JSON.stringify(finalData),
+        // });
+
+        const res = await fetch("https://amazon-hotw-7.onrender.com/api/submit", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(finalData),
+});
+
         const data = await res.json();
         console.log("Final submission:", data);
 
