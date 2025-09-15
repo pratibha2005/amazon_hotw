@@ -523,7 +523,7 @@ export default function One() {
         //   body: JSON.stringify(finalData),
         // });
 
-        const res = await fetch("https://amazon-hotw-7.onrender.com/api/submit", {
+        const res = await fetch("https://amazon-hotw-15.onrender.com/api/submit", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify(finalData),
